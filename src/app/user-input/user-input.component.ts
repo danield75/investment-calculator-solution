@@ -9,7 +9,12 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './user-input.component.css'
 })
 export class UserInputComponent {
+  enteredInitialInvestment?:number;
+  enteredAnnualInvestment?:number;
+  enteredExpectedReturn?:number;
+  enteredDuration?:number;
+
   onSubmit() {
-    
+
   }
 }
